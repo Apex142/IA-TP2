@@ -1,8 +1,8 @@
 # Rapport TP2 - Classification d'images mer/non-mer
 
 **Étudiant:**
-rouabhi nihal nour elhouda
-sbai eya
+rouabhi nihal nour elhouda,
+sbai eya,
 MARTIN Mehdi
 
 **Date:** 03 février 2025
