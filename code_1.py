@@ -71,7 +71,6 @@ def holdOutError(S, algo, test_size=0.2):
     return accuracy_score(y_test, model.predict(X_test))
 
 if __name__ == "__main__":
-    # Chemins vers les dossiers contenant les images
     path_mer = "Data/Mer"
     path_ailleurs = "Data/Ailleurs" 
 
@@ -82,7 +81,7 @@ if __name__ == "__main__":
     for i, entry in enumerate(S):
         S[i] = updateImageEntry(entry, 128, 128)
 
-    # Définir l'algorithme à utiliser
+    # Naive Bayes
     algo = {
         'name': 'NaiveBayes',
         'hyper_param': {} 
@@ -94,7 +93,7 @@ if __name__ == "__main__":
     # Prédire les classes à partir des histogrammes
     y_pred = predictFromHisto(S, model)
 
-    # Afficher les résultats pour les premières images
+    # Exemple de résultats pour les premières images
     for i in range(min(5, len(S))):
         print(f"Image : {S[i]['name_path']}")
         print(f"   - Classe réelle : {S[i]['y_true_class']}")
