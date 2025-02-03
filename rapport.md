@@ -9,7 +9,7 @@ MARTIN Mehdi
 
 ## 1. Objectif du TP
 
-L'objectif de ce TP était d'implémenter un système de classification binaire d'images permettant de distinguer les paysages maritimes des autres paysages.
+L'objectif de ce TP était d'implémenter un système de classification binaire d'images permettant de distinguer les paysages maritimes des autres paysages. Au début du TP, nous avons trié les images présentes dans les dossiers `/data/mer` et `/data/ailleurs` car certaines images n'étaient pas à leur place et pouvaient affecter les données et fausser les résultats.
 
 ## 2. Implémentation
 
